@@ -187,7 +187,7 @@ body {
     .container {
         display: flex;
         overflow: hidden;
-        width: 400px;
+        width: 2000px;
         scroll-behavior: smooth;
     }
 
