@@ -177,6 +177,38 @@ body {
         font-family: Eurostile;
     }
 
+    .carrossel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        overflow: hidden;
+        width: 400px;
+        scroll-behavior: smooth;
+    }
+
+    .container img {
+        width: 200px;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .container img:hover {
+        transform: scale(1.1);
+    }
+
+    .seta {
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
 }
 
 /* ogami */
