@@ -26,9 +26,9 @@ body {
     background-position: center;
     text-align: center;
     .title {
-        text-align: left;
+        text-align: center;
         font-family: arial;
-        font-size: 40px;
+        font-size: 100px;
         font-weight: bold;
         background: linear-gradient(
             180deg,
@@ -37,6 +37,7 @@ body {
             );
         color: darkred;
     };
+
     .subtitle {
         text-align: left;
         font-size: 30;
